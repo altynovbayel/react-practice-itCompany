@@ -1,0 +1,37 @@
+.footer{
+  background-color: #2B2B37;
+  color: white;
+  .container{
+    width: 90%;
+    margin: 0 auto;
+    .top_nav{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 30px;
+      p{
+        font-size: 14px;
+      }
+    }
+    .navList{
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 40px;
+      li{
+        list-style: none;
+        font-weight: 500;
+        font-size: 18px;
+        margin-bottom: 30px;
+        margin-right: 50px;
+        .link{
+          text-decoration: none;
+        }
+      }
+    }
+    .bottom{
+      border-top: 1px solid #FFFFFF;
+      padding-top: 30px;
+      color: #FFFFFF;
+    }
+  }
+}

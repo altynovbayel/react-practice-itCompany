@@ -1,0 +1,22 @@
+.banner{
+  background-color: #524EB7;
+  padding-top: 100px;
+  height: 60vh;
+  color: white;
+  .container{
+    width: 90%;
+    margin: 0 auto;
+    .text{
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      p{
+        font-weight: bold;
+        font-size: 16px;
+      }
+    }
+    .title{
+      margin-top: 15px;
+    }
+  }
+}

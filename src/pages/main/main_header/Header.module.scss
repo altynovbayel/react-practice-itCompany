@@ -1,0 +1,23 @@
+
+.banner_text{
+  .container{
+    width: 90%;
+    margin: 0 auto;
+  }
+  background-color: #524EB7;
+  color: white;
+  padding-top: 100px;
+  height: 60vh;
+  z-index: 2;
+  h4{
+    margin-bottom: 20px;
+  }
+  h1{
+    margin-bottom: 40px;
+  }
+  p{
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+}

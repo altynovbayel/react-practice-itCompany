@@ -1,0 +1,21 @@
+.container{
+  width: 90%;
+  margin: 60px auto 0;
+  h1{
+    color: #2B2B37;
+    text-align: left;
+  }
+  .logo{
+    margin-top: 60px;
+    ul{
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 20px;
+      li{
+        margin-bottom: 30px;
+      }
+    }
+  }
+}

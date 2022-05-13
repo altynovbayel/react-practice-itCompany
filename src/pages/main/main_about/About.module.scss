@@ -1,0 +1,48 @@
+.container{
+  width: 90%;
+  margin: 60px auto 0;
+  @media (min-width: 1024px) {
+    display: flex; 
+    justify-content: space-between;   
+    gap: 20px;  
+  }
+  .img_block{
+    display: flex;
+    justify-content: center;
+    img{
+      width: 100%;
+      object-fit: contain;
+      @media (min-width: 768px) {
+        width: 500px;
+        height: 260px;
+      }
+      @media (min-width: 1024px) {
+        width: 400px;
+        height: 300px;
+        margin-right: 20px;
+      }
+    }
+  }
+  .text{
+    margin-top: 40px;
+    color: #2B2B37;
+    @media (min-width: 1024px) {
+      width: 695px;
+    }
+    h1{
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+    p{
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 28px;
+      color: #3A393E;
+    }
+    h3{
+      line-height: 30px;
+      margin-top: 20px;
+    } 
+    
+  }
+}
